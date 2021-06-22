@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passenger Counter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+      <h1>Passenger Counter</h1>
+    <h2>People Entered:</h2>
+    <div id="count">0</div>
+    <div class="btns">
+      <button id="inc" onclick="increment()">Increase</button>
+      <button id="save" onclick="save()">Save</button>
+      <button id="reset" onclick="reset()">Reset</button>
+    </div>
+    <div id="sav">Saved: <div id="saved">Null</div></div>
+    <div class="txt">TOTAL: <div id="total">0</div>
+        
+    </div>
     
-</body>
+  </body>
 </html>
